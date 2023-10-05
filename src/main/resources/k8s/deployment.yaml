@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: k8s-viatab
+  labels:
+    app: k8s-viatab
+spec:
+  replicas: 2 # pod count
+  selector:
+    matchLabels:
+      app: k8s-viatab
+  template:
+    metadata:
+      name: k8s-viatab
+      labels:
+        app: k8s-viatab
+    spec: # Moved spec inside template
+      containers:
+        - name: k8s-viatab # Added a space after the dash
+          image: k8s-viatab:v1.25.9
+          imagePullPolicy: Never #IfNotPresent
+          ports:
+            - containerPort: 8080
