@@ -1,6 +1,6 @@
 # The VIA Tabloid Application - VIATAB
 
-The **VIATAB** application is a dynamic web platform designed to showcase captivating headlines from various departments within VIA. These departments, a minimum of three, will each contribute their unique stories and ideas.
+The **VIA-Tabloid** application is a dynamic web platform designed to showcase captivating headlines from various departments within VIA. These departments, a minimum of three, will each contribute their unique stories and ideas.
 
 The display of these stories will be intelligently organized within the application, utilizing diverse components and tabs for an engaging user experience.
 
@@ -16,7 +16,4 @@ The display of these stories will be intelligently organized within the applicat
 
 ## Goal
 
-The primary objective of this project is to master the art of **Continuous Integration and Continuous Deployment (CI/CD)**, as well as to gain expertise in containerization techniques, leveraging the power of **Docker** and **Kubernetes**.
-
----
-
+The primary objective of this project is to master the art of **Continuous Integration and Continuous Deployment (CI/CD)**. This will be achieved by becoming proficient in containerization techniques, leveraging the power of **Docker** and **Kubernetes**, and utilizing **WSL (Windows Subsystem for Linux)** for a seamless development experience on Windows.
