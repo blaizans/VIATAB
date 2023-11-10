@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@Tag(description = "",name = "Animals Resource")
+@Tag(description = "",name = "Story Resource")
 @RestController
 @RequestMapping("api/story")
 public class StoryController {

@@ -21,11 +21,12 @@ public class Story {
 
     public Story(){}
 
-    public Story (String name, String description, String publisher, Date date){
+    public Story (Long Id, String name, String description, String publisher, Date date){
         this.date=date;
         this.name=name;
         this.description=description;
         this.publisher = publisher;
+        this.id=Id;
     }
 
     public Long getId() {
