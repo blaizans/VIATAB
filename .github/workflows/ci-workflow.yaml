@@ -28,3 +28,6 @@ jobs:
 
       - name: Run Tests
         run: mvn test
+
+      - name: Run StoryController Test
+        run: mvn test -Dtest=test.com.example.viatab.StoryControllerTest
